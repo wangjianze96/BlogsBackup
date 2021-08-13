@@ -1,6 +1,6 @@
 # HSPICE: How to understand
 
-[:TOC]
+[TOC]
 
 ## HSPICE - Introduction
 
