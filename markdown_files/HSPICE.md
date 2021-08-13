@@ -1,7 +1,5 @@
 # HSPICE: How to understand
 
-:TOC
-
 ## HSPICE - Introduction
 
 SPICE is a general purpose analog circuit simulator that is used to verify circuit designs and to predict circuit behavior. This is of particular importance for "integrated circuits". It was for this reason that SPICE was originally developed at the Electronics Research Laboratory of the University of California, Berkeley (1975), as its name implies:
