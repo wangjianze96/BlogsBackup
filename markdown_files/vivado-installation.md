@@ -28,7 +28,8 @@ There is another package mentioned is `ncurses-compat-libs`, but I cannot instal
 
 ## Result
 
-Still ongoing installation, will update if it works.
+~~Still ongoing installation, will update if it works.~~
+Luckily, it worked. Vivado can work properly now. The additional information below is also not needed for 2021.2 version, the docnav works properly as well.
 
 ## Additional Information for 2019.2
 As written at https://support.xilinx.com/s/article/63794?language=en_US :
