@@ -4,7 +4,7 @@
 These days I was trying to help another guy to construct a time-to-digital converter using FPGA.
 So I needed vivado to build the circuit netlist and run some simulation. I actually have already
 installed vivado on my PC and we also have vivado available on the cluster. But I wanted to try
-to install vivado on Linux by myself. So I wept out my Arch Linux and reinstall Ubuntu on my office
+to install vivado on Linux by myself. So I swept out my Arch Linux and reinstall Ubuntu on my office
 PC. Then I tried to install vivado. The previous steps run perfectly, but after downloading and
 installation, it was performing a step called "generating installed device list" and then it stucked.
 I first thought maybe it's some kind of permission issue, so I canceled the installation and reinstalled
