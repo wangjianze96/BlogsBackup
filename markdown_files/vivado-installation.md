@@ -8,7 +8,7 @@ to install vivado on Linux by myself. So I wept out my Arch Linux and reinstall 
 PC. Then I tried to install vivado. The previous steps run perfectly, but after downloading and
 installation, it was perfroming a step called "generating device list" and then it stucked. I first
 thought maybe it's some kind of permission issue, so I canceled the installation and reinstalled
-vivado. I knew this step can be time consuming so I just left it and go home. Over a night I came
+vivado. I knew this step can be time consuming so I just left it and went home. Over a night I came
 back to office and the same issue was still there.
 
 ## Possible solution
