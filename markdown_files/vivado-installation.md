@@ -38,13 +38,13 @@ The following packages were reported by customers as needing to be installed on 
 You can install the following packages using apt-get (not just for the Documentation Navigator)
 
  
-
+```
 sudo apt-get install libstdc++6:i386
 
 sudo apt-get install libgtk2.0-0:i386
 
 sudo apt-get install dpkg-dev:i386
-
+```
  
 
 The SDK requires gmake, but Ubuntu only contains make (it is the same binary, but a different filename).
@@ -52,23 +52,23 @@ The SDK requires gmake, but Ubuntu only contains make (it is the same binary, bu
 gmake needs to be created as a link:
 
  
-
+```
 sudo ln -s /usr/bin/make /usr/bin/gmake
-
+```
  
 
 On a minimal Ubuntu install you will need to install pip to work with Python packages:
 
  
-
+```
 apt install python3-pip
-
+```
  
 
 Install these missing Ubuntu packages:
-
+```
 apt install libtinfo5 libncurses5
-
+```
 Without libtinfo5 Vivado will not start.
 Without libncurses5 simulation fails.
 After running the Vivado installer on Linux you will need to install cable drivers as root.
@@ -80,17 +80,18 @@ This is the case for all Linux installs, not just Ubuntu.
 Installation steps:
 
 ### change directory to your Vivado install, for example:
-
+```
 cd /opt/Xilinx/Vivado/2019.2
-
+```
  
 
 ### cd into the drivers directory (the script MUST be run there)
-
+```
 cd data/xicom/cable_drivers/lin64/install_script/install_drivers
-
+```
  
 
 ### run the cable installer with root privileges
-
+```
 sudo ./install_drivers
+```
