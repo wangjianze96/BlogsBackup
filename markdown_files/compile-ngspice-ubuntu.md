@@ -1,7 +1,7 @@
 # Compile ngspice on Ubuntu 20.04
 
 ## Prerequiest
-### Utilies
+### Utilities
 - libreadline-dev
 - libx11-dev (optional, required if X display is needed)
 - libeditline-dev
