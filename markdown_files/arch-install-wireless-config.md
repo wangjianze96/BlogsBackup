@@ -53,7 +53,7 @@ Referecen:
    Create `/etc/systemd/network/00-wireless-dhcp.network`, according to Archbbs, the name can be varied.
    ```
    [Match]
-   Name=wlp5s0
+   Name=wlp50s0
    
    [Network]
    DHCP=yes
